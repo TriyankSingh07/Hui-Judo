@@ -1,0 +1,44 @@
+@media(max-width:992px) {
+    .topbar {
+        display: none;
+    }
+}
+
+
+@media(max-width:992px) {
+    .offcanvas-body .nav-link {
+        color: #000 !important;
+    }
+}
+
+/* Banner Responsive */
+
+@media(max-width:992px) {
+    .banner .container .banner-text h1 {
+        font-size: 30px;
+    }
+
+    .banner .container .banner-text h5 {
+        font-size: 20px;
+    }
+}
+
+
+/* About Us Responsive */
+
+
+
+@media(max-width:992px){
+    .about-bg-image{
+        max-width: 100%;
+    }
+
+    .about-us{
+        margin-top: 10px;
+    }
+
+    .row-div{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
